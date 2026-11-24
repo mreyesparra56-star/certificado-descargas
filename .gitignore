@@ -1,0 +1,6 @@
+# Certificados generados: se crean de nuevo cada vez que se ejecuta
+certificados/
+verificacion.csv
+
+# Archivos que crea Python al ejecutar
+__pycache__/

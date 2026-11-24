@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+  PLANTILLA DEL CERTIFICADO
+  El script reemplaza las palabras entre llaves dobles por los datos
+  de cada persona: {{nombre}}, {{rol}}, {{equipo}}, {{proyecto}}, {{fecha}}.
+  ¡Cambia los colores, la letra y el texto para hacerla de tu evento!
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Certificado · {{nombre}}</title>
+<style>
+  body { margin: 0; background: #eceff1; font-family: Georgia, serif; }
+  .hoja { width: 1000px; height: 700px; margin: 30px auto; background: #ffffff;
+          border: 14px solid #1e1b45; box-sizing: border-box; padding: 60px 80px;
+          text-align: center; position: relative; }
+  .evento { font-family: Arial, sans-serif; letter-spacing: 6px; color: #6b65b5;
+            font-size: 18px; text-transform: uppercase; }
+  h1 { font-size: 64px; color: #1e1b45; margin: 20px 0 10px; }
+  .otorga { font-size: 20px; color: #555; }
+  .nombre { font-size: 50px; color: #c0392b; margin: 26px 0; font-style: italic; }
+  .detalle { font-size: 22px; color: #333; line-height: 1.6; }
+  .firma { position: absolute; bottom: 60px; left: 0; right: 0; font-family: Arial, sans-serif;
+           color: #555; font-size: 16px; }
+</style>
+</head>
+<body>
+  <div class="hoja">
+    <div class="evento">Hackathon ADSO 2026</div>
+    <h1>Certificado</h1>
+    <div class="otorga">Se otorga a</div>
+    <div class="nombre">{{nombre}}</div>
+    <div class="detalle">
+      por su participación como <b>{{rol}}</b> en el equipo <b>{{equipo}}</b><br>
+      con el proyecto <i>«{{proyecto}}»</i>.
+    </div>
+    <div class="firma">Itagüí, {{fecha}} · Comité organizador</div>
+  </div>
+</body>
+</html>
