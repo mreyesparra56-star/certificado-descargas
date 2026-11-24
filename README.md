@@ -22,7 +22,7 @@ Los certificados quedan en la carpeta `certificados`. Para imprimir uno o guarda
 |---|---|---|
 | `participantes.csv` | Miguelangel Reyes, Miguel Arenas, Samuelombis Lopombis, Jetbe | Los organizadores del evento |
 | `plantilla.html` | El diseño del certificado. Las palabras entre `{{ }}` se reemplazan por los datos de cada persona | El diseñador |
-| `generar_certificados.py` | [Ejemplo de certificado generado ](certificado-ejemplo.png) | El programador |
+| `generar_certificados.py` | [Ejemplo de certificado generado ](assets/certificado-ejemplo.png) | El programador |
 
 Así trabajan las automatizaciones reales: **los datos, el diseño y el código van separados**. Se puede cambiar la lista o el diseño sin tocar el código.
 
